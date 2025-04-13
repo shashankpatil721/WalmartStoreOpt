@@ -1,0 +1,12 @@
+2025-04-01 19:06:17,256 - INFO - Loading and preprocessing data...
+2025-04-01 19:06:17,957 - INFO - Dataset shape: (33784, 23)
+2025-04-01 19:06:18,100 - INFO - Optimizing XGBoost...
+2025-04-01 19:08:51,786 - INFO - 
+XGBoost Results:
+2025-04-01 19:08:51,786 - INFO - accuracy: 0.9287
+2025-04-01 19:08:51,786 - INFO - precision: 0.9042
+2025-04-01 19:08:51,786 - INFO - recall: 0.8757
+2025-04-01 19:08:51,786 - INFO - f1: 0.8897
+2025-04-01 19:08:51,788 - INFO - roc_auc: 0.9767
+2025-04-01 19:08:51,789 - INFO - pr_auc: 0.9625
+2025-04-01 19:08:51,789 - INFO - Optimizing Random Forest...

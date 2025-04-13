@@ -1,0 +1,25 @@
+2025-04-01 22:00:49,713 - INFO - Loading and preprocessing data...
+2025-04-01 22:00:49,912 - INFO - Successfully loaded 33784 rows of data
+2025-04-01 22:00:49,913 - INFO - Using 23 features: ['population', 'population_density', 'per_capita_income', 'employment_rate', 'market_potential', 'employment_health_score', 'distance_to_nearest_walmart', 'walmart_density_5km', 'walmart_density_10km', 'walmart_density_25km', 'walmart_density_50km', 'population_employment', 'density_income', 'market_employment', 'income_density', 'market_density', 'employment_density', 'rental_price', 'rental_price_volatility', 'rental_price_trend', 'target_density_5km', 'target_density_10km', 'target_density_25km']
+2025-04-01 22:00:49,968 - INFO - Dataset shape: (33784, 23)
+2025-04-01 22:00:50,028 - INFO - Optimizing XGBoost...
+2025-04-01 22:01:06,048 - INFO - Best XGBoost trial: 0.9719
+2025-04-01 22:01:07,371 - INFO - 
+XGBoost Results:
+2025-04-01 22:01:07,372 - INFO - accuracy: 0.9226
+2025-04-01 22:01:07,372 - INFO - precision: 0.8746
+2025-04-01 22:01:07,372 - INFO - recall: 0.8923
+2025-04-01 22:01:07,372 - INFO - f1: 0.8834
+2025-04-01 22:01:07,372 - INFO - roc_auc: 0.9748
+2025-04-01 22:01:07,372 - INFO - pr_auc: 0.9593
+2025-04-01 22:01:07,373 - INFO - Optimizing Random Forest...
+2025-04-01 22:02:58,982 - INFO - Best Random Forest trial: 0.9443
+2025-04-01 22:03:08,775 - INFO - 
+Random Forest Results:
+2025-04-01 22:03:08,783 - INFO - accuracy: 0.8668
+2025-04-01 22:03:08,783 - INFO - precision: 0.7773
+2025-04-01 22:03:08,783 - INFO - recall: 0.8333
+2025-04-01 22:03:08,783 - INFO - f1: 0.8043
+2025-04-01 22:03:08,783 - INFO - roc_auc: 0.9430
+2025-04-01 22:03:08,783 - INFO - pr_auc: 0.9071
+2025-04-01 22:03:08,784 - INFO - Optimizing Neural Network...

@@ -1,0 +1,11 @@
+2025-04-01 22:15:40,087 - INFO - Loading and preprocessing data...
+2025-04-01 22:15:40,312 - INFO - Successfully loaded 33784 rows of data
+2025-04-01 22:15:40,314 - INFO - Using 23 features: ['population', 'population_density', 'per_capita_income', 'employment_rate', 'market_potential', 'employment_health_score', 'distance_to_nearest_walmart', 'walmart_density_5km', 'walmart_density_10km', 'walmart_density_25km', 'walmart_density_50km', 'population_employment', 'density_income', 'market_employment', 'income_density', 'market_density', 'employment_density', 'rental_price', 'rental_price_volatility', 'rental_price_trend', 'target_density_5km', 'target_density_10km', 'target_density_25km']
+2025-04-01 22:15:40,380 - WARNING - Found NaN values after scaling, filling with 0
+2025-04-01 22:15:40,391 - INFO - Loading and preprocessing data...
+2025-04-01 22:15:40,618 - INFO - Successfully loaded 33784 rows of data
+2025-04-01 22:15:40,618 - INFO - Using 23 features: ['population', 'population_density', 'per_capita_income', 'employment_rate', 'market_potential', 'employment_health_score', 'distance_to_nearest_walmart', 'walmart_density_5km', 'walmart_density_10km', 'walmart_density_25km', 'walmart_density_50km', 'population_employment', 'density_income', 'market_employment', 'income_density', 'market_density', 'employment_density', 'rental_price', 'rental_price_volatility', 'rental_price_trend', 'target_density_5km', 'target_density_10km', 'target_density_25km']
+2025-04-01 22:15:40,670 - WARNING - Found NaN values after scaling, filling with 0
+2025-04-01 22:15:40,678 - INFO - Dataset shape: (33784, 23)
+2025-04-01 22:15:40,734 - INFO - Optimizing XGBoost...
+2025-04-01 22:15:54,697 - INFO - Best XGBoost trial: 0.9716

@@ -1,0 +1,13 @@
+{
+    "total_zips_tested": 5270,
+    "actual_walmarts": 248,
+    "predicted_walmarts": 372,
+    "accuracy": 0.8918406072106262,
+    "precision": 0.06720430107526881,
+    "recall": 0.10080645161290322,
+    "f1_score": 0.08064516129032258,
+    "roc_auc": 0.5307060225331124,
+    "mean_distance_error": 54.37114481687864,
+    "false_positives": 347,
+    "false_negatives": 223
+}

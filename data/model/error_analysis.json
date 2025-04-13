@@ -1,0 +1,30 @@
+{
+    "false_positives": {
+        "count": 347,
+        "avg_probability": 0.576499188443804,
+        "feature_means": {
+            "population": 0.13541181695714355,
+            "population_density": 0.024745934015096182,
+            "per_capita_income": -0.14526707937743305,
+            "employment_rate": -0.19671536821718896,
+            "unemployment_rate": -0.2324583457330576,
+            "labor_force_participation": -0.07584290715444796,
+            "market_potential": -0.0937498147323287,
+            "distance_to_nearest_walmart": -0.10789329753273504
+        }
+    },
+    "false_negatives": {
+        "count": 223,
+        "avg_probability": 0.2242558054013453,
+        "feature_means": {
+            "population": -0.12455422975144911,
+            "population_density": -0.005834456023196794,
+            "per_capita_income": 0.1757662814700698,
+            "employment_rate": 0.0018006729935631388,
+            "unemployment_rate": -0.06338195701670311,
+            "labor_force_participation": -0.0655110129370808,
+            "market_potential": 0.027689187801381368,
+            "distance_to_nearest_walmart": -0.09161574483739371
+        }
+    }
+}

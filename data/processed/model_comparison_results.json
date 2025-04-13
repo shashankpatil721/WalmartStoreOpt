@@ -1,0 +1,176 @@
+{
+    "xgboost": {
+        "model_name": "XGBoost",
+        "metrics": {
+            "accuracy": 0.9206748557051946,
+            "precision": 0.8712522045855379,
+            "recall": 0.8900900900900901,
+            "f1": 0.8805704099821747,
+            "roc_auc": 0.9746189489026166,
+            "pr_auc": 0.9586087531951437,
+            "mean_distance_error": 0.16848993366950077,
+            "intersection_over_union": 0.7866242038216561,
+            "confidence": {
+                "mean_confidence": 0.36026519536972046,
+                "std_confidence": 0.4022772014141083,
+                "confidence_by_class": {
+                    "positive": 0.8549176454544067,
+                    "negative": 0.11822676658630371
+                }
+            },
+            "regional_performance": {
+                "Northeast": {
+                    "accuracy": 0.906764168190128,
+                    "precision": 0.8012048192771084,
+                    "recall": 0.8807947019867549,
+                    "f1": 0.8391167192429022,
+                    "sample_size": 1094
+                },
+                "Southeast": {
+                    "accuracy": 0.9267694463910301,
+                    "precision": 0.8888888888888888,
+                    "recall": 0.897119341563786,
+                    "f1": 0.8929851510496671,
+                    "sample_size": 2854
+                },
+                "Midwest": {
+                    "accuracy": 0.9194756554307116,
+                    "precision": 0.8762769580022701,
+                    "recall": 0.8792710706150342,
+                    "f1": 0.877771461057419,
+                    "sample_size": 2670
+                },
+                "West": {
+                    "accuracy": 0.9173228346456693,
+                    "precision": 0.8781038374717833,
+                    "recall": 0.884090909090909,
+                    "f1": 0.8810872027180068,
+                    "sample_size": 1270
+                },
+                "Southwest": {
+                    "accuracy": 0.910828025477707,
+                    "precision": 0.8623853211009175,
+                    "recall": 0.8785046728971962,
+                    "f1": 0.8703703703703703,
+                    "sample_size": 314
+                }
+            }
+        }
+    },
+    "random_forest": {
+        "model_name": "Random Forest",
+        "metrics": {
+            "accuracy": 0.8672487790439544,
+            "precision": 0.7768940979489326,
+            "recall": 0.836036036036036,
+            "f1": 0.8053807767411586,
+            "roc_auc": 0.9428613978757246,
+            "pr_auc": 0.9071371963348818,
+            "mean_distance_error": 0.17747048922306286,
+            "intersection_over_union": 0.6741736287686161,
+            "confidence": {
+                "mean_confidence": 0.39687468434519024,
+                "std_confidence": 0.3466203188339212,
+                "confidence_by_class": {
+                    "positive": 0.7787534610192639,
+                    "negative": 0.21001753552075922
+                }
+            },
+            "regional_performance": {
+                "Northeast": {
+                    "accuracy": 0.8528336380255942,
+                    "precision": 0.7031700288184438,
+                    "recall": 0.8079470198675497,
+                    "f1": 0.7519260400616333,
+                    "sample_size": 1094
+                },
+                "Southeast": {
+                    "accuracy": 0.8710581639803784,
+                    "precision": 0.7943469785575049,
+                    "recall": 0.838477366255144,
+                    "f1": 0.8158158158158159,
+                    "sample_size": 2854
+                },
+                "Midwest": {
+                    "accuracy": 0.8610486891385768,
+                    "precision": 0.7699680511182109,
+                    "recall": 0.8234624145785877,
+                    "f1": 0.7958172812328013,
+                    "sample_size": 2670
+                },
+                "West": {
+                    "accuracy": 0.8732283464566929,
+                    "precision": 0.8,
+                    "recall": 0.8454545454545455,
+                    "f1": 0.8220994475138121,
+                    "sample_size": 1270
+                },
+                "Southwest": {
+                    "accuracy": 0.8726114649681529,
+                    "precision": 0.7964601769911505,
+                    "recall": 0.8411214953271028,
+                    "f1": 0.8181818181818182,
+                    "sample_size": 314
+                }
+            }
+        }
+    },
+    "neural_network": {
+        "model_name": "Neural Network",
+        "metrics": {
+            "accuracy": 0.8978836761876573,
+            "precision": 0.8992693110647182,
+            "recall": 0.7761261261261261,
+            "f1": 0.8331721470019342,
+            "roc_auc": 0.958438425200603,
+            "pr_auc": 0.9319868440873585,
+            "mean_distance_error": 0.17531713872899107,
+            "intersection_over_union": 0.7140489017820141,
+            "confidence": {
+                "mean_confidence": 0.31838866687422934,
+                "std_confidence": 0.3823877858105799,
+                "confidence_by_class": {
+                    "positive": 0.7651390934200415,
+                    "negative": 0.09978916347292822
+                }
+            },
+            "regional_performance": {
+                "Northeast": {
+                    "accuracy": 0.896709323583181,
+                    "precision": 0.8705882352941177,
+                    "recall": 0.7350993377483444,
+                    "f1": 0.7971274685816876,
+                    "sample_size": 1094
+                },
+                "Southeast": {
+                    "accuracy": 0.8997897687456202,
+                    "precision": 0.9016393442622951,
+                    "recall": 0.7921810699588477,
+                    "f1": 0.8433734939759037,
+                    "sample_size": 2854
+                },
+                "Midwest": {
+                    "accuracy": 0.8917602996254682,
+                    "precision": 0.8953020134228188,
+                    "recall": 0.7596810933940774,
+                    "f1": 0.8219346888478127,
+                    "sample_size": 2670
+                },
+                "West": {
+                    "accuracy": 0.8929133858267716,
+                    "precision": 0.9021164021164021,
+                    "recall": 0.775,
+                    "f1": 0.8337408312958435,
+                    "sample_size": 1270
+                },
+                "Southwest": {
+                    "accuracy": 0.89171974522293,
+                    "precision": 0.8842105263157894,
+                    "recall": 0.7850467289719626,
+                    "f1": 0.8316831683168316,
+                    "sample_size": 314
+                }
+            }
+        }
+    }
+}

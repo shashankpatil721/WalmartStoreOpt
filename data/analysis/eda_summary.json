@@ -1,0 +1,101 @@
+{
+    "total_zip_codes": 26347,
+    "walmart_locations": 1240,
+    "class_distribution": {
+        "no_walmart": 25107,
+        "has_walmart": 1240,
+        "walmart_percentage": 4.706418188028998
+    },
+    "missing_values": [
+        {
+            "column": "zip",
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        {
+            "column": "lat",
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        {
+            "column": "lng",
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        {
+            "column": "city",
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        {
+            "column": "state",
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        {
+            "column": "has_walmart",
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        {
+            "column": "population",
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        {
+            "column": "population_density",
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        {
+            "column": "per_capita_income",
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        {
+            "column": "employment_rate",
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        {
+            "column": "unemployment_rate",
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        {
+            "column": "labor_force_participation",
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        {
+            "column": "market_potential",
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        {
+            "column": "distance_to_nearest_walmart",
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        }
+    ],
+    "regional_distribution": {
+        "total_zips": {
+            "West": 4591,
+            "Central": 9099,
+            "East": 9098,
+            "Other": 3559
+        },
+        "walmart_count": {
+            "West": 221,
+            "Central": 415,
+            "East": 439,
+            "Other": 165
+        },
+        "walmart_percentage": {
+            "West": 4.81,
+            "Central": 4.56,
+            "East": 4.83,
+            "Other": 4.64
+        }
+    }
+}

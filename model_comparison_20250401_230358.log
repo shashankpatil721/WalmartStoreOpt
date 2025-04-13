@@ -1,0 +1,192 @@
+2025-04-01 23:03:58,743 - INFO - Loading and preprocessing data...
+2025-04-01 23:03:58,935 - INFO - Successfully loaded 33784 rows of data
+2025-04-01 23:03:58,937 - INFO - Using 23 features: ['population', 'population_density', 'per_capita_income', 'employment_rate', 'market_potential', 'employment_health_score', 'distance_to_nearest_walmart', 'walmart_density_5km', 'walmart_density_10km', 'walmart_density_25km', 'walmart_density_50km', 'population_employment', 'density_income', 'market_employment', 'income_density', 'market_density', 'employment_density', 'rental_price', 'rental_price_volatility', 'rental_price_trend', 'target_density_5km', 'target_density_10km', 'target_density_25km']
+2025-04-01 23:03:58,987 - WARNING - Found NaN values after scaling, filling with 0
+2025-04-01 23:03:58,995 - INFO - Loading and preprocessing data...
+2025-04-01 23:03:59,193 - INFO - Successfully loaded 33784 rows of data
+2025-04-01 23:03:59,193 - INFO - Using 23 features: ['population', 'population_density', 'per_capita_income', 'employment_rate', 'market_potential', 'employment_health_score', 'distance_to_nearest_walmart', 'walmart_density_5km', 'walmart_density_10km', 'walmart_density_25km', 'walmart_density_50km', 'population_employment', 'density_income', 'market_employment', 'income_density', 'market_density', 'employment_density', 'rental_price', 'rental_price_volatility', 'rental_price_trend', 'target_density_5km', 'target_density_10km', 'target_density_25km']
+2025-04-01 23:03:59,244 - WARNING - Found NaN values after scaling, filling with 0
+2025-04-01 23:03:59,252 - INFO - Dataset shape: (33784, 23)
+2025-04-01 23:03:59,311 - INFO - Optimizing XGBoost...
+2025-04-01 23:04:12,555 - INFO - Best XGBoost trial: 0.9719
+2025-04-01 23:06:16,672 - INFO - 
+XGBoost Results:
+2025-04-01 23:06:16,672 - INFO - Basic Metrics:
+2025-04-01 23:06:16,672 - INFO - accuracy: 0.9207
+2025-04-01 23:06:16,672 - INFO - precision: 0.8713
+2025-04-01 23:06:16,672 - INFO - recall: 0.8901
+2025-04-01 23:06:16,673 - INFO - f1: 0.8806
+2025-04-01 23:06:16,673 - INFO - roc_auc: 0.9746
+2025-04-01 23:06:16,673 - INFO - pr_auc: 0.9586
+2025-04-01 23:06:16,673 - INFO - 
+Spatial Metrics:
+2025-04-01 23:06:16,673 - INFO - mean_distance_error: 0.1685
+2025-04-01 23:06:16,673 - INFO - intersection_over_union: 0.7866
+2025-04-01 23:06:16,673 - INFO - 
+Confidence Metrics:
+2025-04-01 23:06:16,674 - INFO - mean_confidence: 0.3603
+2025-04-01 23:06:16,674 - INFO - std_confidence: 0.4023
+2025-04-01 23:06:16,674 - INFO - confidence_by_class:
+2025-04-01 23:06:16,674 - INFO -   positive: 0.8549
+2025-04-01 23:06:16,674 - INFO -   negative: 0.1182
+2025-04-01 23:06:16,674 - INFO - 
+Regional Performance:
+2025-04-01 23:06:16,674 - INFO - 
+Northeast:
+2025-04-01 23:06:16,674 - INFO -   accuracy: 0.9068
+2025-04-01 23:06:16,675 - INFO -   precision: 0.8012
+2025-04-01 23:06:16,675 - INFO -   recall: 0.8808
+2025-04-01 23:06:16,675 - INFO -   f1: 0.8391
+2025-04-01 23:06:16,675 - INFO -   sample_size: 1094.0000
+2025-04-01 23:06:16,675 - INFO - 
+Southeast:
+2025-04-01 23:06:16,675 - INFO -   accuracy: 0.9268
+2025-04-01 23:06:16,675 - INFO -   precision: 0.8889
+2025-04-01 23:06:16,676 - INFO -   recall: 0.8971
+2025-04-01 23:06:16,676 - INFO -   f1: 0.8930
+2025-04-01 23:06:16,676 - INFO -   sample_size: 2854.0000
+2025-04-01 23:06:16,676 - INFO - 
+Midwest:
+2025-04-01 23:06:16,676 - INFO -   accuracy: 0.9195
+2025-04-01 23:06:16,676 - INFO -   precision: 0.8763
+2025-04-01 23:06:16,676 - INFO -   recall: 0.8793
+2025-04-01 23:06:16,676 - INFO -   f1: 0.8778
+2025-04-01 23:06:16,676 - INFO -   sample_size: 2670.0000
+2025-04-01 23:06:16,677 - INFO - 
+West:
+2025-04-01 23:06:16,677 - INFO -   accuracy: 0.9173
+2025-04-01 23:06:16,677 - INFO -   precision: 0.8781
+2025-04-01 23:06:16,677 - INFO -   recall: 0.8841
+2025-04-01 23:06:16,677 - INFO -   f1: 0.8811
+2025-04-01 23:06:16,677 - INFO -   sample_size: 1270.0000
+2025-04-01 23:06:16,677 - INFO - 
+Southwest:
+2025-04-01 23:06:16,677 - INFO -   accuracy: 0.9108
+2025-04-01 23:06:16,677 - INFO -   precision: 0.8624
+2025-04-01 23:06:16,678 - INFO -   recall: 0.8785
+2025-04-01 23:06:16,678 - INFO -   f1: 0.8704
+2025-04-01 23:06:16,678 - INFO -   sample_size: 314.0000
+2025-04-01 23:06:16,720 - INFO - Optimizing Random Forest...
+2025-04-01 23:07:57,771 - INFO - Best Random Forest trial: 0.9443
+2025-04-01 23:11:27,875 - INFO - 
+Random Forest Results:
+2025-04-01 23:11:27,875 - INFO - Basic Metrics:
+2025-04-01 23:11:27,875 - INFO - accuracy: 0.8672
+2025-04-01 23:11:27,875 - INFO - precision: 0.7769
+2025-04-01 23:11:27,875 - INFO - recall: 0.8360
+2025-04-01 23:11:27,877 - INFO - f1: 0.8054
+2025-04-01 23:11:27,877 - INFO - roc_auc: 0.9429
+2025-04-01 23:11:27,877 - INFO - pr_auc: 0.9071
+2025-04-01 23:11:27,877 - INFO - 
+Spatial Metrics:
+2025-04-01 23:11:27,877 - INFO - mean_distance_error: 0.1775
+2025-04-01 23:11:27,878 - INFO - intersection_over_union: 0.6742
+2025-04-01 23:11:27,878 - INFO - 
+Confidence Metrics:
+2025-04-01 23:11:27,878 - INFO - mean_confidence: 0.3969
+2025-04-01 23:11:27,878 - INFO - std_confidence: 0.3466
+2025-04-01 23:11:27,878 - INFO - confidence_by_class:
+2025-04-01 23:11:27,878 - INFO -   positive: 0.7788
+2025-04-01 23:11:27,878 - INFO -   negative: 0.2100
+2025-04-01 23:11:27,878 - INFO - 
+Regional Performance:
+2025-04-01 23:11:27,879 - INFO - 
+Northeast:
+2025-04-01 23:11:27,879 - INFO -   accuracy: 0.8528
+2025-04-01 23:11:27,879 - INFO -   precision: 0.7032
+2025-04-01 23:11:27,879 - INFO -   recall: 0.8079
+2025-04-01 23:11:27,879 - INFO -   f1: 0.7519
+2025-04-01 23:11:27,879 - INFO -   sample_size: 1094.0000
+2025-04-01 23:11:27,879 - INFO - 
+Southeast:
+2025-04-01 23:11:27,879 - INFO -   accuracy: 0.8711
+2025-04-01 23:11:27,880 - INFO -   precision: 0.7943
+2025-04-01 23:11:27,880 - INFO -   recall: 0.8385
+2025-04-01 23:11:27,880 - INFO -   f1: 0.8158
+2025-04-01 23:11:27,880 - INFO -   sample_size: 2854.0000
+2025-04-01 23:11:27,880 - INFO - 
+Midwest:
+2025-04-01 23:11:27,880 - INFO -   accuracy: 0.8610
+2025-04-01 23:11:27,880 - INFO -   precision: 0.7700
+2025-04-01 23:11:27,880 - INFO -   recall: 0.8235
+2025-04-01 23:11:27,880 - INFO -   f1: 0.7958
+2025-04-01 23:11:27,880 - INFO -   sample_size: 2670.0000
+2025-04-01 23:11:27,881 - INFO - 
+West:
+2025-04-01 23:11:27,881 - INFO -   accuracy: 0.8732
+2025-04-01 23:11:27,881 - INFO -   precision: 0.8000
+2025-04-01 23:11:27,881 - INFO -   recall: 0.8455
+2025-04-01 23:11:27,881 - INFO -   f1: 0.8221
+2025-04-01 23:11:27,881 - INFO -   sample_size: 1270.0000
+2025-04-01 23:11:27,881 - INFO - 
+Southwest:
+2025-04-01 23:11:27,881 - INFO -   accuracy: 0.8726
+2025-04-01 23:11:27,881 - INFO -   precision: 0.7965
+2025-04-01 23:11:27,882 - INFO -   recall: 0.8411
+2025-04-01 23:11:27,882 - INFO -   f1: 0.8182
+2025-04-01 23:11:27,882 - INFO -   sample_size: 314.0000
+2025-04-01 23:11:28,142 - INFO - Optimizing Neural Network...
+2025-04-01 23:13:28,995 - INFO - Best Neural Network trial: 0.9583
+2025-04-01 23:16:21,815 - INFO - 
+Neural Network Results:
+2025-04-01 23:16:21,815 - INFO - Basic Metrics:
+2025-04-01 23:16:21,815 - INFO - accuracy: 0.8979
+2025-04-01 23:16:21,815 - INFO - precision: 0.8993
+2025-04-01 23:16:21,815 - INFO - recall: 0.7761
+2025-04-01 23:16:21,815 - INFO - f1: 0.8332
+2025-04-01 23:16:21,815 - INFO - roc_auc: 0.9584
+2025-04-01 23:16:21,815 - INFO - pr_auc: 0.9320
+2025-04-01 23:16:21,815 - INFO - 
+Spatial Metrics:
+2025-04-01 23:16:21,815 - INFO - mean_distance_error: 0.1753
+2025-04-01 23:16:21,815 - INFO - intersection_over_union: 0.7140
+2025-04-01 23:16:21,815 - INFO - 
+Confidence Metrics:
+2025-04-01 23:16:21,815 - INFO - mean_confidence: 0.3184
+2025-04-01 23:16:21,815 - INFO - std_confidence: 0.3824
+2025-04-01 23:16:21,815 - INFO - confidence_by_class:
+2025-04-01 23:16:21,815 - INFO -   positive: 0.7651
+2025-04-01 23:16:21,815 - INFO -   negative: 0.0998
+2025-04-01 23:16:21,815 - INFO - 
+Regional Performance:
+2025-04-01 23:16:21,817 - INFO - 
+Northeast:
+2025-04-01 23:16:21,817 - INFO -   accuracy: 0.8967
+2025-04-01 23:16:21,817 - INFO -   precision: 0.8706
+2025-04-01 23:16:21,817 - INFO -   recall: 0.7351
+2025-04-01 23:16:21,817 - INFO -   f1: 0.7971
+2025-04-01 23:16:21,817 - INFO -   sample_size: 1094.0000
+2025-04-01 23:16:21,817 - INFO - 
+Southeast:
+2025-04-01 23:16:21,817 - INFO -   accuracy: 0.8998
+2025-04-01 23:16:21,817 - INFO -   precision: 0.9016
+2025-04-01 23:16:21,817 - INFO -   recall: 0.7922
+2025-04-01 23:16:21,817 - INFO -   f1: 0.8434
+2025-04-01 23:16:21,817 - INFO -   sample_size: 2854.0000
+2025-04-01 23:16:21,817 - INFO - 
+Midwest:
+2025-04-01 23:16:21,817 - INFO -   accuracy: 0.8918
+2025-04-01 23:16:21,817 - INFO -   precision: 0.8953
+2025-04-01 23:16:21,820 - INFO -   recall: 0.7597
+2025-04-01 23:16:21,820 - INFO -   f1: 0.8219
+2025-04-01 23:16:21,820 - INFO -   sample_size: 2670.0000
+2025-04-01 23:16:21,820 - INFO - 
+West:
+2025-04-01 23:16:21,820 - INFO -   accuracy: 0.8929
+2025-04-01 23:16:21,820 - INFO -   precision: 0.9021
+2025-04-01 23:16:21,820 - INFO -   recall: 0.7750
+2025-04-01 23:16:21,820 - INFO -   f1: 0.8337
+2025-04-01 23:16:21,820 - INFO -   sample_size: 1270.0000
+2025-04-01 23:16:21,821 - INFO - 
+Southwest:
+2025-04-01 23:16:21,821 - INFO -   accuracy: 0.8917
+2025-04-01 23:16:21,821 - INFO -   precision: 0.8842
+2025-04-01 23:16:21,821 - INFO -   recall: 0.7850
+2025-04-01 23:16:21,821 - INFO -   f1: 0.8317
+2025-04-01 23:16:21,821 - INFO -   sample_size: 314.0000
+2025-04-01 23:16:23,690 - INFO - 
+Model comparison complete! Results have been saved to:
+2025-04-01 23:16:23,690 - INFO - - data/processed/model_comparison_results.json
+2025-04-01 23:16:23,690 - INFO - - data/processed/model_comparison_basic.png
+2025-04-01 23:16:23,691 - INFO - - data/processed/model_comparison_regional.png
+2025-04-01 23:16:23,691 - INFO - - data/processed/confidence_distribution.png

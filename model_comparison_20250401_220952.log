@@ -1,0 +1,39 @@
+2025-04-01 22:09:52,175 - INFO - Loading and preprocessing data...
+2025-04-01 22:09:52,360 - INFO - Successfully loaded 33784 rows of data
+2025-04-01 22:09:52,360 - INFO - Using 23 features: ['population', 'population_density', 'per_capita_income', 'employment_rate', 'market_potential', 'employment_health_score', 'distance_to_nearest_walmart', 'walmart_density_5km', 'walmart_density_10km', 'walmart_density_25km', 'walmart_density_50km', 'population_employment', 'density_income', 'market_employment', 'income_density', 'market_density', 'employment_density', 'rental_price', 'rental_price_volatility', 'rental_price_trend', 'target_density_5km', 'target_density_10km', 'target_density_25km']
+2025-04-01 22:09:52,411 - WARNING - Found NaN values after scaling, filling with 0
+2025-04-01 22:09:52,420 - INFO - Dataset shape: (33784, 23)
+2025-04-01 22:09:52,476 - INFO - Optimizing XGBoost...
+2025-04-01 22:10:05,369 - INFO - Best XGBoost trial: 0.9709
+2025-04-01 22:10:06,181 - INFO - 
+XGBoost Results:
+2025-04-01 22:10:06,183 - INFO - accuracy: 0.9204
+2025-04-01 22:10:06,183 - INFO - precision: 0.8721
+2025-04-01 22:10:06,183 - INFO - recall: 0.8878
+2025-04-01 22:10:06,183 - INFO - f1: 0.8799
+2025-04-01 22:10:06,183 - INFO - roc_auc: 0.9745
+2025-04-01 22:10:06,183 - INFO - pr_auc: 0.9585
+2025-04-01 22:10:06,183 - INFO - Optimizing Random Forest...
+2025-04-01 22:11:43,048 - INFO - Best Random Forest trial: 0.9443
+2025-04-01 22:11:50,976 - INFO - 
+Random Forest Results:
+2025-04-01 22:11:50,977 - INFO - accuracy: 0.8672
+2025-04-01 22:11:50,977 - INFO - precision: 0.7778
+2025-04-01 22:11:50,977 - INFO - recall: 0.8342
+2025-04-01 22:11:50,977 - INFO - f1: 0.8050
+2025-04-01 22:11:50,977 - INFO - roc_auc: 0.9431
+2025-04-01 22:11:50,977 - INFO - pr_auc: 0.9073
+2025-04-01 22:11:50,977 - INFO - Optimizing Neural Network...
+2025-04-01 22:13:23,964 - INFO - Best Neural Network trial: 0.9585
+2025-04-01 22:13:37,598 - INFO - 
+Neural Network Results:
+2025-04-01 22:13:37,598 - INFO - accuracy: 0.9022
+2025-04-01 22:13:37,598 - INFO - precision: 0.8749
+2025-04-01 22:13:37,598 - INFO - recall: 0.8194
+2025-04-01 22:13:37,598 - INFO - f1: 0.8462
+2025-04-01 22:13:37,598 - INFO - roc_auc: 0.9605
+2025-04-01 22:13:37,598 - INFO - pr_auc: 0.9355
+2025-04-01 22:13:38,358 - INFO - 
+Model comparison complete! Results have been saved to:
+2025-04-01 22:13:38,358 - INFO - - data/processed/model_comparison_results.json
+2025-04-01 22:13:38,359 - INFO - - data/processed/model_comparison.png

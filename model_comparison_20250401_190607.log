@@ -1,0 +1,21 @@
+2025-04-01 19:06:07,017 - INFO - Loading and preprocessing data...
+2025-04-01 19:06:07,423 - INFO - Dataset shape: (33784, 23)
+2025-04-01 19:06:07,510 - INFO - Optimizing XGBoost...
+2025-04-01 19:08:29,035 - INFO - 
+XGBoost Results:
+2025-04-01 19:08:29,037 - INFO - accuracy: 0.9244
+2025-04-01 19:08:29,037 - INFO - precision: 0.8929
+2025-04-01 19:08:29,037 - INFO - recall: 0.8748
+2025-04-01 19:08:29,039 - INFO - f1: 0.8837
+2025-04-01 19:08:29,039 - INFO - roc_auc: 0.9758
+2025-04-01 19:08:29,040 - INFO - pr_auc: 0.9614
+2025-04-01 19:08:29,040 - INFO - Optimizing Random Forest...
+2025-04-01 19:36:21,926 - INFO - 
+Random Forest Results:
+2025-04-01 19:36:21,926 - INFO - accuracy: 0.8744
+2025-04-01 19:36:21,926 - INFO - precision: 0.7906
+2025-04-01 19:36:21,931 - INFO - recall: 0.8401
+2025-04-01 19:36:21,931 - INFO - f1: 0.8146
+2025-04-01 19:36:21,931 - INFO - roc_auc: 0.9499
+2025-04-01 19:36:21,931 - INFO - pr_auc: 0.9195
+2025-04-01 19:36:21,931 - INFO - Optimizing Neural Network...
